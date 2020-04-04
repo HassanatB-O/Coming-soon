@@ -1,0 +1,68 @@
+body
+{
+    background-color: peachpuff
+}
+.flexcontainer
+{
+    display: flex;
+}
+.floatLeft
+{
+    background-image: url("bg.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1
+{
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+h2
+{
+    font-size: 30px;
+}
+h3
+{
+    color: grey;
+    font-size: 30px;
+    font-weight: bold;
+}
+span
+{
+    color: red
+}
+p
+{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+}
+input[type=email]
+{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+label
+{
+    font-size: 20px;
+}
+footer
+{
+    text-align: center;
+}
+@media screen and (max-device-width: 480px) {
+    .flexcontainer{
+        flex-direction: column-reverse;
+        width: 100%;        
+}
+.floatRight img
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+}
